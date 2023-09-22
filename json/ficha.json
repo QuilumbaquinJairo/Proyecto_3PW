@@ -1,0 +1,119 @@
+[
+    {
+        "id": "1",
+        "nombre": "undefined",
+        "unidad": null,
+        "cantidad": "3333",
+        "precio": null,
+        "tipo": "Modelo 2 Noga",
+        "fechain": null
+    },
+    {
+        "id": "2",
+        "nombre": "undefined",
+        "unidad": null,
+        "cantidad": "4",
+        "precio": null,
+        "tipo": "Modelo 4 Abedu",
+        "fechain": "2023-08-11"
+    },
+    {
+        "id": "3",
+        "nombre": "undefined",
+        "unidad": null,
+        "cantidad": "7686",
+        "precio": null,
+        "tipo": "Modelo 2 Noga",
+        "fechain": "2023-08-23"
+    },
+    {
+        "id": "4",
+        "nombre": "undefined",
+        "unidad": null,
+        "cantidad": "21212",
+        "precio": null,
+        "tipo": "Modelo 2 Pino",
+        "fechain": "2023-09-01"
+    },
+    {
+        "id": "5",
+        "nombre": "undefined",
+        "unidad": null,
+        "cantidad": "87978",
+        "precio": null,
+        "tipo": "Modelo 2 Noga",
+        "fechain": "2023-08-24"
+    },
+    {
+        "id": "6",
+        "nombre": "undefined",
+        "unidad": null,
+        "cantidad": "7867",
+        "precio": null,
+        "tipo": "Modelo 2 Noga",
+        "fechain": "2023-08-17"
+    },
+    {
+        "id": "7",
+        "nombre": "undefined",
+        "unidad": null,
+        "cantidad": "87",
+        "precio": null,
+        "tipo": "Modelo 2 Noga",
+        "fechain": "2023-08-17"
+    },
+    {
+        "id": "8",
+        "nombre": "undefined",
+        "unidad": null,
+        "cantidad": "2212",
+        "precio": null,
+        "tipo": "Modelo 2 Noga",
+        "fechain": "2023-08-16"
+    },
+    {
+        "id": "9",
+        "nombre": "undefined",
+        "unidad": null,
+        "cantidad": "2121",
+        "precio": null,
+        "tipo": "Modelo 4 Abedu",
+        "fechain": "2023-08-18"
+    },
+    {
+        "id": "10",
+        "nombre": "undefined",
+        "unidad": null,
+        "cantidad": "6",
+        "precio": null,
+        "tipo": "Modelo 2 Noga",
+        "fechain": "2023-08-19"
+    },
+    {
+        "id": "11",
+        "nombre": "undefined",
+        "unidad": null,
+        "cantidad": "2222",
+        "precio": null,
+        "tipo": "Modelo 5 Cerezo",
+        "fechain": "2023-08-08"
+    },
+    {
+        "id": "12",
+        "nombre": "undefined",
+        "unidad": null,
+        "cantidad": "2322332",
+        "precio": null,
+        "tipo": "Modelo 2 Noga",
+        "fechain": "2023-08-22"
+    },
+    {
+        "id": "13",
+        "nombre": "undefined",
+        "unidad": null,
+        "cantidad": "89770879",
+        "precio": null,
+        "tipo": "Modelo 4 Abedu",
+        "fechain": "2023-08-15"
+    }
+]

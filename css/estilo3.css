@@ -1,0 +1,9 @@
+.panel-box img {
+  max-width: 40%; /* ajustar imagen al panel */
+  opacity: 0.7; /* opacidad inicial */
+  transition: opacity 0.3s ease-in-out; /* transición de opacidad */
+}
+
+.panel-box:hover img {
+  opacity: 1; /* opacidad al pasar el mouse */
+}

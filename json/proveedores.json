@@ -1,0 +1,83 @@
+[
+    {
+        "id": "1",
+        "empresa": "Importparts",
+        "nombre": "Fernando Suquillo",
+        "direccion": "Sangolqui",
+        "telefono": "984008483",
+        "correo": "efsuquillo@espe.edu.ec",
+        "ruc": "1716871965001"
+    },
+    {
+        "id": "3",
+        "empresa": "VISOALSA",
+        "nombre": "Andres",
+        "direccion": "Nela Martinez",
+        "telefono": "9832419",
+        "correo": "victorcamacho8762@gmail.com",
+        "ruc": "1217612675"
+    },
+    {
+        "id": "4",
+        "empresa": "MADERERA",
+        "nombre": "JUAN GUERRA",
+        "direccion": "Simon Bolivar",
+        "telefono": "99380993",
+        "correo": "jairoquilumbaquin1@gmail.com",
+        "ruc": "12312435245"
+    },
+    {
+        "id": "9",
+        "empresa": "ADELCA",
+        "nombre": "JUAN",
+        "direccion": "ELOY ALFARO",
+        "telefono": "9994564564",
+        "correo": "juan@gmail.com",
+        "ruc": "1234564"
+    },
+    {
+        "id": "10",
+        "empresa": "jairo",
+        "nombre": "jairo",
+        "direccion": "jairo",
+        "telefono": "123123",
+        "correo": "jaioj",
+        "ruc": "123123"
+    },
+    {
+        "id": "11",
+        "empresa": "jairo",
+        "nombre": "jairo",
+        "direccion": "jairo",
+        "telefono": "1233234",
+        "correo": "jaiaro",
+        "ruc": "12312"
+    },
+    {
+        "id": "12",
+        "empresa": "simon",
+        "nombre": "jairo",
+        "direccion": "simon bolivar",
+        "telefono": "99283012",
+        "correo": "jair",
+        "ruc": "12312"
+    },
+    {
+        "id": "13",
+        "empresa": "Lavoro",
+        "nombre": "Eduardo Sanin",
+        "direccion": "Comite del pueeblo",
+        "telefono": "123322",
+        "correo": "lavoro@edu.com",
+        "ruc": "23213232222"
+    },
+    {
+        "id": "14",
+        "empresa": "asda",
+        "nombre": "asd",
+        "direccion": "sda",
+        "telefono": "1231312",
+        "correo": "jairoquilumbaquin1@gmail.com",
+        "ruc": "12312321123"
+    }
+]

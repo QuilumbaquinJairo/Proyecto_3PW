@@ -1,0 +1,29 @@
+[
+    {
+        "id": "16",
+        "nombre": "Metal",
+        "cantidad": "500",
+        "descripcion": "Tubos de acero",
+        "proveedor": "Importparts",
+        "fecha_elaboracion": "2023-08-30",
+        "unidad": "Kilogramos"
+    },
+    {
+        "id": "17",
+        "nombre": "Tela",
+        "cantidad": "50",
+        "descripcion": "Tela resistente",
+        "proveedor": "VISOALSA",
+        "fecha_elaboracion": "2023-08-30",
+        "unidad": "metros"
+    },
+    {
+        "id": "18",
+        "nombre": "Tornillos",
+        "cantidad": "300",
+        "descripcion": "Tornillos para ensamblaje",
+        "proveedor": "Importparts",
+        "fecha_elaboracion": "2023-08-30",
+        "unidad": "gr"
+    }
+]

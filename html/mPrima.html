@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agregar proveedores</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/estilo1.css">
+    <link rel="icon" type="image/png" href="../img/image.png"/>
+</head>
+<body>
+<div id="sideNavigation" class="sidenav navbar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div>
+        <center><img src="../img/MUEBLESONLIBNE.png" alt="Logo" style="width: 150px; margin-left: 20px;"></center>
+    </div>
+    <div class="navcontainer">
+        <a href="../html/inicio.html">Inicio</a>
+
+        <div class="dropdown__content">
+            <div class="sub_drop">
+                <button class="dropbtn">Componentes</button>
+                <img src="../img/down.svg" class="dropdown__arrow">
+                <input type="checkbox" class="dropdown__check">
+            </div>
+            <ul class="dropdown__sub">
+
+                <li class="dropdown__li">
+                    <a href="../html/mPrima.html" class="dropdown__anchor">Agregar Componente</a>
+                </li>
+                <li class="dropdown__li">
+                    <a href="../html/productos.html" class="dropdown__anchor">Ver Componentes</a>
+                </li>
+                <li class="dropdown__li">
+                    <a href="../php/obtenerTabla.php" class="dropdown__anchor">Editar Componentes</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="dropdown__content">
+            <div class="sub_drop">
+                <button class="dropbtn">Proveedores</button>
+                <img src="../img/down.svg" class="dropdown__arrow">
+                <input type="checkbox" class="dropdown__check">
+            </div>
+            <ul class="dropdown__sub">
+
+                <li class="dropdown__li">
+                    <a href="../html/proveedores.html" class="dropdown__anchor">Agregar Proveedor</a>
+                </li>
+                <li class="dropdown__li">
+                    <a href="../html/verproveedores.html" class="dropdown__anchor">Ver Proveedores</a>
+                </li>
+                <li class="dropdown__li">
+                    <a href="../php/modificar_p.php" class="dropdown__anchor">Editar Proveedores</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <a href="../html/recetas.html">Productos</a>
+        <a href="../php/oProduccion.php">Ordenes de Produccion</a>
+    </div>
+</div>
+<nav class="topnav">
+    <a href="#" onclick="openNav()">
+        <svg width="30" height="30" id="icoOpen">
+            <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+        </svg>
+    </a>
+    <div class="titulo-menu">
+        <img src="../img/logo_nav.png" width="60px" alt="logo">
+        <h1>TusMueblesOnline</h1>
+    </div>
+    <div>
+        <br>
+        <button type="submit" class="button-3" onclick="logout()">Salir</button>
+    </div>
+</nav>
+<br>
+<div id="titulo">
+    <h2>Agregar Componentes</h2>
+    <form action="../php/envio.php" method="post" id="form_agregar_productos">
+        <label for="nombre">Nombre del componente:</label>
+        <input type="text" id="nombre" name="nombre" pattern="^.{1,30}$" placeholder="Ejemplo: Clavos" required>
+        <br>
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" required min="1" max="999" placeholder="Hasta:999">
+        <br>
+        <label for="descripcion">Descripción:</label>
+        <input type="text" id="descripcion" name="descripcion" placeholder="Ejemplo: clavos de acero" required>
+        <br>
+        <label for="fabricante">Fabricante:</label>
+        <select name="fabricante" id="fabricante"></select>
+        <br>
+            <label for="unidades">Unidades</label>
+            <select name="unidades" id="unidades">
+                <option value="centimetros">centimetros</option>
+                <option value="metros">metros</option>
+                <option value="metros cuadrados">metros cuadrados</option>
+                <option value="gr">gramos</option>
+                <option value="Kilogramos">Kilogramos</option>
+            </select>
+        <br>
+        <label for="fecha_elaboracion">Fecha de Elaboración:</label>
+        <input type="date" id="fecha_elaboracion" name="fecha_elaboracion" required>
+        <br>
+        <br>
+        <input type="submit" value="Agregar Componente" id="btnproducto">
+        </form>
+</div>
+
+
+<script src="../js/menu-desplegable.js"></script>
+<script src="../js/utils.js"></script>
+<script src="../js/logout.js"></script>
+<script src="../js/profile.js"></script>
+<scrip src="../js/mprima_validacion.js"></scrip>
+<script>
+    // Establecer la fecha actual
+    var today = new Date().toISOString().split('T')[0];
+    document.getElementById("fecha_elaboracion").value = today;
+    document.getElementById("fecha_elaboracion").readOnly = true;
+</script>
+
+</body>
+</html>
+
